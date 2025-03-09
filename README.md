@@ -18,7 +18,7 @@ This is my personal **photo showcase website**—built with love and some HTML, 
 ---
 
 ## **Features**
-&rarr;;**Mobile-friendly** – Looks great on any screen!  
+&rarr;**Mobile-friendly** – Looks great on any screen!  
 &rarr;**Smooth navigation** – Browse without distractions!  
 &rarr;**Minimalist & aesthetic** – Because photos deserve the spotlight!  
 &rarr;**Hosted on GitHub Pages** – Free and accessible 24/7!  
