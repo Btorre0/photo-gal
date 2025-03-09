@@ -14,18 +14,17 @@ const images = [
 ];
 
 let currentIndex = 0;
-
 function openLightbox(index, event) {
     event.preventDefault();
     currentIndex = index;
     document.getElementById("lightbox-img").src = images[currentIndex];
-    document.getElementById("lightbox").style.display = "flex";
+    document.getElementById("lightbox").classList.add("active"); // Add class instead of changing display
 }
-
 
 function closeLightbox() {
-    document.getElementById("lightbox").style.display = "none";
+    document.getElementById("lightbox").classList.remove("active"); // Remove class to hide
 }
+
 
 // Change image in lightbox
 function changeImage(direction) {
@@ -39,7 +38,7 @@ function changeImage(direction) {
 }
 
 // Keyboard navigation support
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown", function (event) {
     document.getElementById("lightbox").style.display = "none";
     if (document.getElementById("lightbox").style.display === "block") {
         if (event.key === "ArrowRight") {
