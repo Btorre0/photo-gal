@@ -1,4 +1,6 @@
-###**Beatriz’s Photo Gallery**
+### **Beatriz’s Photo Gallery**
+
+**WORK IN PROGRESS**
 ✨ *A cozy corner of the internet for my favorite snapshots!* ✨  
 
 ---
