@@ -311,6 +311,7 @@ button:hover {
 
 /* Hide the Contact button initially */
 #contact-btn {
+    animation: fadeIn 8.0s ease-in-out forwards;
     display: none;
 }
 
