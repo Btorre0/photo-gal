@@ -8,6 +8,7 @@ body {
 
 .gallery {
     display: grid;
+    align-content: center;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
     gap: 20px;
     padding: 20px;
@@ -27,6 +28,7 @@ body {
 }
 
 .gallery img:hover {
+    align-content: center;
     transform: scale(1.05);
 }
 
@@ -131,7 +133,7 @@ p {
     font-family: Garamond, serif;
     z-index: 1000;
     animation: fadeOut 1s ease-in-out forwards;
-    animation-delay: 2.5s;
+    animation-delay: 2.0s;
     /* Show for 2.5 seconds */
 }
 
@@ -217,7 +219,6 @@ body.loaded #content {
 /* Contact Page */
 .contact-container {
     max-width: 500px;
-    /* Increased width */
     margin: 100px auto;
     padding: 50px;
     /* More padding */
@@ -339,7 +340,7 @@ body.loaded #contact-btn {
     background-color: rgba(255, 255, 255, 1);
 }
 
-/* Instagram Icon */
+/* Instagram Icon
 #instagram-link {
     position: fixed;
     top: 15px;
@@ -347,7 +348,7 @@ body.loaded #contact-btn {
     width: 40px;
     height: 40px;
     z-index: 1001;
-}
+} */
 
 #instagram-link img {
     width: 40px;

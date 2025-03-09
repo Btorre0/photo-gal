@@ -5,14 +5,14 @@
 
 ---
 
-##**Welcome!**
+## **Welcome!**
 Hello World! 👋 Welcome to my little digital gallery, where I share my photography adventures. Whether they are pictures of my school, sunsets, or random places, I find them fascinating!
 
 **🌍 View the gallery:** [📷 Click here!](https://Btorre0.github.io/photo-gal/)  
 
 ---
 
-##**What’s This About?**
+## **What’s This About?**
 This is my personal **photo showcase website**—built with love and some HTML, CSS, and JavaScript! It’s responsive, lightweight, and (hopefully) beautiful!  
 
 ---
