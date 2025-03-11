@@ -340,7 +340,7 @@ body.loaded #contact-btn {
     background-color: rgba(255, 255, 255, 1);
 }
 
-/* Instagram Icon
+/* Instagram Icon */
 #instagram-link {
     position: fixed;
     top: 15px;
@@ -348,7 +348,7 @@ body.loaded #contact-btn {
     width: 40px;
     height: 40px;
     z-index: 1001;
-} */
+}
 
 #instagram-link img {
     width: 40px;
