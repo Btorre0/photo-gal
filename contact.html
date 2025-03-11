@@ -10,14 +10,25 @@
     <a href="index.html" id="back-btn">← Back</a>
 
     <!-- insta -->
-    <!-- <a href="https://www.instagram.com/beatr1ztorres?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" 
+    <a href="https://www.instagram.com/beatr1ztorres?igsh=NTc4MTIwNjQ2YQ%3D%3D&utm_source=qr" 
     target="_blank" id="instagram-link">
-     <img src="gallery/insta.png" alt="Instagram">
-     </a> -->
+     <img src="gallery/instalogo.png" alt="Instagram">
+    </a>
 
-    <div class="contact-container">
+    <!-- Facebook -->
+    <a href="https://www.facebook.com/people/Betty-Torres/pfbid02EskMgCqvQSRkLtti9XpMmKY6PJE5wxHNNYgobUtR978Tdb3JPu6yhVHjWLEuwdwTl/" 
+    target="_blank" id="facebook-link">
+    <img src="gallery/facebooklogo.png" alt="Facebook">
+    </a>
+
+    <!-- Github -->
+    <a href="https://github.com/Btorre0" target="_blank" id="github-link">
+    <img src="gallery/github.png" alt="Github">
+    </a>
+
+     <div class="contact-container">
         <h1>Contact Me ◡̈</h1>
-        <form id="contact-form">
+        <form id="contact-form" action="contact.php" method="post">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
 
@@ -33,16 +44,7 @@
         <p id="confirmation-message" class="hidden">Information sent! 🎉</p>
     </div>
 
-    <script>
-        // later add SQL or PHP to store the information
-        document.getElementById("contact-form").addEventListener("submit", function(event) {
-            event.preventDefault();
-
-            document.getElementById("contact-form").style.display = "none";
-            document.getElementById("confirmation-message").classList.remove("hidden");
-        });
-    </script>
-    
+    <script src="contact.js"></script>
     <small>No information will be sent right now.</small>
 </body>
 </html>

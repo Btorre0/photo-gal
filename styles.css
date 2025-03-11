@@ -340,7 +340,7 @@ body.loaded #contact-btn {
     background-color: rgba(255, 255, 255, 1);
 }
 
-/* Instagram Icon
+/* Instagram Icon */
 #instagram-link {
     position: fixed;
     top: 15px;
@@ -348,7 +348,7 @@ body.loaded #contact-btn {
     width: 40px;
     height: 40px;
     z-index: 1001;
-} */
+}
 
 #instagram-link img {
     width: 40px;
@@ -357,5 +357,45 @@ body.loaded #contact-btn {
 }
 
 #instagram-link img:hover {
+    transform: scale(1.1);
+}
+
+/* facebook logo */
+#facebook-link {
+    position: fixed;
+    top: 15px;
+    right: 65px; /* Adjusted spacing from Instagram */
+    width: 40px;
+    height: 40px;
+    z-index: 1001;
+}
+
+#facebook-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#facebook-link img:hover {
+    transform: scale(1.1);
+}
+
+/* github link */
+#github-link {
+    position: fixed;
+    top: 15px;
+    right: 115px; /* Adjusted spacing from Facebook */
+    width: 40px;
+    height: 40px;
+    z-index: 1001;
+}
+
+#github-link img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+#github-link img:hover {
     transform: scale(1.1);
 }
