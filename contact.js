@@ -1,11 +1,3 @@
-
-// document.getElementById("contact-form").addEventListener("submit", function(event) {
-//     event.preventDefault();
-
-//     document.getElementById("contact-form").style.display = "none";
-//     document.getElementById("confirmation-message").classList.remove("hidden");
-// });
-
 document.getElementById("contact-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
