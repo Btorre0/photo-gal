@@ -14,9 +14,9 @@ document.addEventListener("DOMContentLoaded", function() {
                 document.querySelector("form").style.display = "none"; 
                 document.getElementById("confirmation-message").classList.remove("hidden"); 
             } else {
-                alert("Error: " + data);
+                alert("Error: alert " + data);
             }
         })
-        .catch(error => console.error("Error:", error));
+        .catch(error => console.error("Error: error 1", error));
     });
 });
