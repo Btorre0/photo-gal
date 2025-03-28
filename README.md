@@ -47,3 +47,21 @@ Got feedback? Want to collab? Ideas? Let me know!
 ---
 
 <333 Thanks for stopping by!** May your days be filled with beautiful moments and good lighting!
+
+
+## Test Case
+#### TODO:
+**Page navigation**
+- test all links to ensure they lead to the correct pages
+- verify that the website is structured is logical and easy to navigate
+- test all nagivations!
+
+**Content Readability**
+- ensure text and images are easy to read/view
+
+**Loading**
+- make sure that everything loads correctly and efficiently
+
+**Stress testing**
+- test websites ability to withstand extreme laods and potential crashes
+- ensure that the website recovers after (in case) failure
