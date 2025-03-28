@@ -17,6 +17,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 alert("Error: alert " + data);
             }
         })
-        .catch(error => console.error("Error: error 1", error));
+        .catch(error => {
+            console.error("Fetch error:", error);
+            alert("error in fetching data");
+        });
+        
     });
 });
