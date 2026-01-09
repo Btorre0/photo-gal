@@ -3,6 +3,7 @@ import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
 
 export default defineConfig({
+  base: "/photo-gal/",
   plugins: [
     react(),
     VitePWA({
@@ -10,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: "BTA Photo Archive",
         short_name: "BTA",
-        start_url: ".",
+        start_url: "/photo-gal/",
         display: "standalone",
         background_color: "#faf9f7",
         theme_color: "#0b0b0b",
