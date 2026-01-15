@@ -1,3 +1,47 @@
+# photo-gal
+
+A static photo gallery built with React, Vite, and TypeScript.  
+Designed for fast performance, clean visuals, and simple deployment via GitHub Pages, with optional PWA support for image caching and offline access.
+
+## Live Demo
+https://btorre0.github.io/photo-gal/
+
+## Tech Stack
+- React
+- Vite
+- TypeScript
+- vite-plugin-pwa
+- GitHub Pages
+
+## Features
+- Fast static builds using Vite
+- Responsive photo gallery layout
+- Progressive Web App (PWA) support
+- Image caching for improved performance
+- Simple GitHub Pages deployment workflow
+
+## Getting Started
+
+### Install dependencies
+```bash
+npm install
+```
+
+### Run locally
+```bash
+npm run dev
+```
+
+### Build for Protection
+
+```bash
+npm run build
+```
+
+#### Thank you!!
+
+-------------
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
